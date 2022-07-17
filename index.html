@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="form-floating">
+    <select class="teams">
+      <option value="#">Select Teams</option>
+    </select>
+    <br>
+    <br>  
+    <form class="input">
+<input type="Search" onchange="change()" class="search" placeholder="Type to search...">
+</form>
+</div>
+<br>
+ <button class="sortId">Id</button> <button class="sortName">Name</button> <button class="sortDiv">Division</button> <button class="sortTn">TeamName</button>
+  <br> 
+<br><hr>
+    <table class="table">
+      <thead class="thdead-dark">
+        <th scope="col" class="num" id="id">ID</th>
+        <th scope="col" class="txt" id="fName">FirstName</th>
+        <th scope="col" class="txt" id="div">Division</th>
+        <th scope="col" class="txt" id="tName">TeamName</th>
+      </thead>
+      <tbody class="data">
+        
+      </tbody>
+    </table>
+
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
